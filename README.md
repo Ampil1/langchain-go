@@ -29,8 +29,13 @@
 2. Install dependencies:
    ```bash
     go mod tidy
+3. Running the Application:
+   ```bash
+   go run main.go
+       or
+    go run .   
 
-3. sample promt:
+4. sample promt:
   ```bash
   POST /chat
 Content-Type: application/json
